@@ -27,6 +27,7 @@ class Discount:
 # 비율 할인 (최대 금액 제한)
 class RateDiscount(Discount):
     def __init__(self, rate, max_amount):
+        # 부모 속성이 하나니까 한칸에 전달 -> name이 아래 폼이 되는거임
         super().__init__(f'{int(rate * 100)}% 할인 (최대 {max_amount:,}원)')
         self.rate = rate
         self.max_amount = max_amount
