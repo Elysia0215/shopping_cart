@@ -138,7 +138,7 @@ def add_p():
 
 # 3. 빼기
 
-# # 다른 접근 방법 
+# # 다른 접근 방법  - 중간 번호가 없다는 가정하에 유용
 # def minus_p():
 #     n = input_int('상품 번호: ')
 #     if n not in [p.index for p in p_list]:
