@@ -137,9 +137,18 @@ def add_p():
 
 
 # 3. 빼기
+
+# # 다른 접근 방법 
+# def minus_p():
+#     n = input_int('상품 번호: ')
+#     if n not in [p.index for p in p_list]:
+#         print('없는 상품 번호입니다.')
+#         return
+#     ...
+   
 def minus_p():
     n = input_int('상품 번호: ')
-    if not (1 <= n <= len(p_list)):
+    if not (1 <= n <= len(p_list)):  
         print('없는 상품 번호입니다.')
         return
 
