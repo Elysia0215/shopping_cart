@@ -144,6 +144,13 @@ def add_p():
 #     if n not in [p.index for p in p_list]:
 #         print('없는 상품 번호입니다.')
 #         return
+
+# for p in p_list:
+#     if p.index == n:
+#         break
+# else:                      # ← for와 같은 위치
+#     print('없는 상품 번호입니다.')
+#     return
 #     ...
    
 def minus_p():
